@@ -1,0 +1,14 @@
+{
+  "name": "ts-webhook-pipeline",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "tsx pipeline.ts"
+  },
+  "dependencies": {
+    "graphingest": "*"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0"
+  }
+}
